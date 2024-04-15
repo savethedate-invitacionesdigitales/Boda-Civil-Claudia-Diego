@@ -5,39 +5,56 @@
 :root {
     --cPrincipal: rgb(181, 181, 131);
     --cSecundario: rgb(244, 244, 237);
-    --cFondo: white;
+    --cFondo:  rgb(244, 244, 237);
     --cTexto: black;
 
 }
 
 
 header {
-    background-image: url("../img/bg-header.png");
+    background-color: var(--cPrincipal);
+    background-image: url("../img/header.jpeg");
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
+
 }
 
-h1,h2,h3,p{
-    color: var(--cTexto);
-}
-
-h1,
-h2 {
-    font-family: "Dancing Script";
+header div{
+    background-color: rgba(0, 0, 0, 0.401);
+    opacity: .8;
+    height: 100%;
 }
 
 h1 {
-    font-style: italic;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Sacramento";
+    padding: 4rem;    
+}
+
+header p{
+    padding: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+h1, header p{
+    color: white;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-top: 2rem;
+    font-family: "Sacramento";
 }
 
 p {
     font-size: 1rem;
+}
+
+h2,h3,p{
+    color: var(--cTexto);
 }
 
 main {
@@ -50,10 +67,11 @@ td {
 }
 
 span{
-    background-color: var(--cPrincipal);
+    background-color: white;
     padding: .5rem;
     border-radius: 5px;
-    color: white;
+    color: var(--cPrincipal);
+    font-weight: bold;
 }
 
 th {
@@ -116,10 +134,6 @@ th {
 #noNinos{
     background-image: url("../img/bg-floresblancas.png");
     background-size: cover;
-}
-
-#asistencia {
-    background-color: var(--cSecundario);
 }
 
 footer {
