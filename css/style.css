@@ -11,7 +11,7 @@
 }
 
 
-header {
+#portada {
     background-color: var(--cPrincipal);
     background-image: url("../img/header.jpeg");
     background-size: cover;
@@ -20,7 +20,7 @@ header {
 
 }
 
-header div{
+header{
     background-color: rgba(0, 0, 0, 0.401);
     opacity: .8;
     height: 100%;
