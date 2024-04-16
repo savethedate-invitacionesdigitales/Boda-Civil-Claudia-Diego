@@ -12,12 +12,13 @@
 
 
 header {
-    background-color: var(--cPrincipal);
+    background-color: var(--cSecundario);
     background-image: url("../img/header.jpeg");
-    background-size: cover;
-    background-position: 0 -100px;
+    background-size:contain;
+    background-position: 0 -50px;
     background-attachment: fixed;
-    height: 60vh;
+    background-repeat: no-repeat;
+    height: 400px;
 
 }
 
