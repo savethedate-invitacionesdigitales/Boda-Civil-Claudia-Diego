@@ -11,12 +11,13 @@
 }
 
 
-#portada {
+header {
     background-color: var(--cPrincipal);
     background-image: url("../img/header.jpeg");
     background-size: cover;
+    background-position: 0 -100px;
     background-attachment: fixed;
-    height: 100vh;
+    height: 60vh;
 
 }
 
@@ -27,7 +28,7 @@
 } */
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: "Sacramento";
     padding: 4rem;    
@@ -40,7 +41,8 @@ header p{
 }
 
 h1, header p{
-    color: white;
+    color: black;
+
 }
 
 h2 {
@@ -59,6 +61,11 @@ h2,h3,p{
 
 main {
     background-color: var(--cFondo);
+}
+
+#principal span{
+    font-size: 2rem;
+    font-family: "";
 }
 
 td {
