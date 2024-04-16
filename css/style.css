@@ -18,7 +18,7 @@ header {
     background-position: 0 -90px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 50vh;
 
 }
 
@@ -32,19 +32,10 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     font-family: "Sacramento";
-    padding: 4rem;    
-}
-
-header p{
-    padding: 2rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
-}
-
-h1, header p{
-    color: black;
+    padding: 3rem;   
 
 }
+
 
 h2 {
     font-size: 2rem;
@@ -56,7 +47,7 @@ p {
     font-size: 1rem;
 }
 
-h2,h3,p{
+h1,h2,h3,p{
     color: var(--cTexto);
 }
 
@@ -65,7 +56,7 @@ main {
 }
 
 #principal span{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
